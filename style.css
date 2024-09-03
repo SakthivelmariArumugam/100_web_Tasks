@@ -1,0 +1,47 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #555;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  position: relative;
+  width: 800px;
+  height: 500px;
+  background-color: #222;
+}
+.clip{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.clip1{
+  background:url(https://i0.wp.com/www.keralagreenery.com/wp-content/uploads/2018/06/kerala-honeymoon-tour-HM01.jpg?fit=2800%2C1867&ssl=1);
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 0,46% 0,39% 100%, 0 100%);
+}
+.clip2{
+  background:url(https://sushanttravels.com/uploads/tim-stief-frsPGSMd64s-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(19% 0,87% 0,65% 100%, 33% 100%);
+}
+.clip3{
+  background:url(https://www.keralatravels.com/categpics/3_Honeymoon-Couple-Love.jpg);
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(82% 0, 100% 0, 100% 100%,63% 100%);
+}
+.container:hover .clip{
+  clip-path:polygon(100% 0,100% 0,100% 100%,100% 100%);
+}
+.container .clip:hover{
+  clip-path: polygon(0 0,100% 0,100% 100%,0% 100%);
+}
