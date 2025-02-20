@@ -1,0 +1,115 @@
+body{
+  font-family: sans-serif;
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
+  background-color:#DAF7A6 ;
+  color: #444;
+}
+header{
+  background-color:#A0C878;
+  color: #F8F5E9;
+  padding: 25px 0px;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgb(218, 247, 166,0.3);
+}
+header h1{
+  margin:0;
+}
+nav{
+  background-color:#5D8736;
+  text-align: center;
+  padding: 12px 0px;
+}
+nav a{
+  text-decoration: none;
+  margin: 0px 20px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 5.5px;
+  color:#A0C878;
+}
+nav a:hover{
+  color:black ;
+  text-decoration: underline;
+}
+section{
+  padding: 25px;
+  margin: 20px auto;
+  max-width: 900px;
+  background-color: #B8D576;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(160, 200, 120,0.3);
+  transition: box-shadow 0.3s ease;
+}
+section:hover{
+  box-shadow: 0 2px 10px rgba(160,200,120,0.5);
+}
+section h2{
+  color: #6E8E59;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+section h2:hover{
+  color:black;
+}
+section table
+{
+  width: 100%;
+  border-collapse: collapse;
+}
+table th,table td{
+  border: 1px solid black;
+  padding: 12px;
+  text-align: center;
+}
+table th{
+  background-color: #5D8736;
+  font-weight: 600px;
+  color: #B8D576;
+}
+table tr:nth-child(even)
+{
+  background-color: #DAF7A6;
+}
+ul{
+  list-style: none;
+  padding: 0px;
+}
+ul{
+  margin: 12px 0;
+  font-size: 1.2rem;
+}
+ul li strong{
+  color: white;
+}
+form{
+  max-width: 650px;
+  margin:25px auto;
+}
+form label{
+  display:block;
+  font-weight: 600;
+}
+#m{
+  margin-left: 125px;
+  font-weight: bold;
+}
+#message{
+  margin-left: 125px;
+  font-weight: bold;
+  width: 75%;
+}
+form input,
+form textarea{
+  width: 100%;
+  padding: 14px; 
+}
+button{
+  width: 75%;
+  font-weight: bold;
+  padding: 10px 0px;
+  margin-left: 125px;
+  font-size: 20px;
+  background-color: #5D8736;
+}
