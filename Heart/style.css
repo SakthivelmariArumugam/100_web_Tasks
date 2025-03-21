@@ -1,0 +1,35 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root{
+  --main-color:#dc143c;
+}
+body{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background:rgb(7,7 green,20);
+}
+.gray-heart{
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  top: 0;
+  transform: rotate(-45deg);
+}
+.gray-heart::before,
+.gray-heart::after{
+  content: "";
+  background: #9999;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+}
